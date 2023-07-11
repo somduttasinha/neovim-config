@@ -103,7 +103,10 @@ return packer.startup(function(use)
 
 	-- git integration
 	use("lewis6991/gitsigns.nvim") -- show line modifications on left hand side
-
+	use("tpope/vim-fugitive")
+	-- java integration
+	use("mfussenegger/nvim-dap")
+	use("mfussenegger/nvim-jdtls")
 	if packer_bootstrap then
 		require("packer").sync()
 	end
