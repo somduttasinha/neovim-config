@@ -25,7 +25,7 @@ opt.cursorline = false -- YouTuber had it as true
 
 opt.termguicolors = true
 opt.background = "dark"
-opt.signcolumn = "no" -- YouTuber had it as yes
+opt.signcolumn = "yes" -- YouTuber had it as yes
 
 -- backspace
 
